@@ -1,0 +1,49 @@
+# @package _global_
+
+#### Model params #############################################################
+model:
+  name: ibgnn
+  hidden_dim: 128
+  ibg_approx_args:
+    num_communities: 50
+    encode_dim: 0
+    add_eigen: 1
+    node_drop_ratio: 0.0
+  ibg_approx_train_args:
+    epochs: 20000
+    lr: 0.01
+    loss_scale: 0.0
+    cut_norm: False
+    node_drop_ratio: 0.0
+    is_undirected: False
+    sparse_scale: 1.0
+  ibgnn_args:
+    num_layers: 5
+    dropout: 0.0
+    skip_com: False
+    skip_node: False
+    normalize: False
+    layer_norm: False
+    jump: null
+
+    ibgnn_com_type: unconstrained
+    com_layers: 1
+
+    ibgnn_com_node_type: deepsets
+    com_node_layers: 2
+
+    ibgnn_node_type: deepsets
+    node_layers: 2
+    pool_type: mean
+
+    
+
+
+train_batches: 1.0
+patience: 35
+batch_size: 64
+add_exogenous: True
+
+embedding:
+  method: uniform
+  emb_size: 32

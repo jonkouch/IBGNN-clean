@@ -1,0 +1,31 @@
+# Ignore common file types
+*.xml
+*.pyc
+*.iml
+*.log
+*.pt
+*.png
+*.out
+
+# Ignore specific files
+batch_*.txt
+cutnorm_main.py
+run_time_main.py
+scripts.txt
+
+# Ignore hidden folders
+.neptune/
+.idea/
+
+# Ignore directories
+logs/
+scripts/
+visualization/
+datasets/
+editing/
+misc/
+plots/
+ibg_approximation_models/
+
+# Ignore __pycache__ folders anywhere
+__pycache__/
