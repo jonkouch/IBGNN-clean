@@ -153,7 +153,7 @@ python3 -u ~/Jonathan/MSC/DICG/ICGNN/icgnn_spatio_temporal_main.py model.project
 ```
 
 
-# ibgE - Knowledge Graph Embedding
+### ibgE - Knowledge Graph Embedding
 
 The script we use to run the KGE experiments is ./run_kg_benchmarks.py.
 Note that the script should be run with . as the main directory or source root.
