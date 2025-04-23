@@ -1,6 +1,6 @@
 #  Efficient Learning on Large Graphs using a Densifying Regularity Lemma
 
-This repository contains the official code base of the paper **[Efficient Learning on Large Graphs using a Densifying Regularity Lemma]()**.
+This repository contains the official code base of the paper **Efficient Learning on Large Graphs using a Densifying Regularity Lemma**.
 
 [PyG]: https://pytorch-geometric.readthedocs.io/en/latest/
 
